@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Numans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+body{
+  /* background-color: #242424; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#withdraw{
+  position: relative;
+  width: 30%;
+  font-family: 'Playpen Sans', cursive;
+  box-shadow: 0.2px 4px yellow;
+  transition: all ease-in-out 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.connect:active ,#withdraw:active {
+  box-shadow: 0px 0px violet ;
+}
+
+.fund-button{
+  font-family: 'Playpen Sans', cursive;
+}
+
+.fund-input{
+  font-family: 'Numans', sans-serif;
+}
+
+.showtime{
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 6px;
+  gap: 10px;
+}
+
+#shouldnotbehere{
+  visibility: hidden;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+  color: deeppink;
+  font-size: larger;
+  margin-top: 3px;
+  position: absolute;
+  left: 46%;
+  top: 20%;
+  transition: all ease 0.2s;
+}
+
+.connect{
+  box-shadow: 0.2px 4px rgb(0, 255, 42);
+  width: 20%;
+  color: rgb(0, 255, 42);
+}
+
+#balance-button{
+  box-shadow: 4px 4px 5px rgb(204, 0, 255);
+  color : white;
+  font-family: 'Numans', sans-serif;
+}
+
+#balance-button:active {
+  transform: scale(0.8);
+  box-shadow: 0px 0px rgb(204, 0, 255);
+  transition: all ease 0.2s;
+}
+
+#eth {
+  color: white; 
+}
